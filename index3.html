@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	    <head>
+               <meta charset="utf-8"/>
+	       <title>Ганимед</title>
+         <style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.section {
+max-height: 950px;
+overflow-y: auto;
+direction: ltr;
+scrollbar-color: #d4aa70 #e4e4e4;
+scrollbar-width: thin;
+}
+
+.section::-webkit-scrollbar {
+width: 20px;
+}
+
+.section::-webkit-scrollbar-track {
+background-color: #e4e4e4;
+border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+border-radius: 100px;
+background-image: linear-gradient(180deg, #2a0046 0%, #bd77ff 99%);
+box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+           body {
+            background: #240050 no-repeat fixed center / cover;
+            color: aliceblue;
+           }
+           .boh {
+             position: fixed;
+            bottom: 0px;
+           }
+           img {
+            border-radius: 40px;
+            border: 2px solid #1e0036;
+           }
+		html {
+font-size: 70%;
+font-family: sans-serif;
+}
+
+li {
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+}
+
+.header{
+border-bottom: 1px solid #d3c0ff;
+position: relative;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #151617;
+padding: 1rem 1.5rem;
+}
+
+.hamburger {
+display: none;
+}
+
+.bar {
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: white;
+}
+
+.nav-menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-item {
+margin-left: 3rem;
+}
+
+.nav-link{
+font-size: 19px;
+color: white;
+}
+
+.nav-link:hover:not(.actives){
+color: #ffffff;
+padding: 15px 15px 15px 15px;
+border-radius: 5px;
+}
+
+.nav-logo {
+font-size: 30px;
+font-weight: 500;
+color: white;
+padding: 5px 5px 5px 5px;
+border-radius: 5px;
+}
+
+body {
+margin: 0px;
+background: #180036 url(28.png) no-repeat fixed center / cover;
+position: relative;
+overflow-y: scroll;
+background-size: 100%;
+color: #fff;
+}
+div {
+padding: 10px;
+text-shadow: rgb(0, 0, 0) 1px 1px 0, rgb(0, 0, 0) -1px -1px 0,
+rgb(0, 0, 0) -1px 1px 0, rgb(0, 0, 0) 1px -1px 0;
+font-size: large;
+}
+
+.foto {
+border-radius: 40px;
+border: 2px solid #1e0036;
+}
+
+figure {
+padding: 1em;
+}
+
+hr {
+margin: 2em;
+}
+
+p {
+margin: 0.5em;
+font-size: x-large;
+text-align: left;
+font-stretch:extra-expanded;
+}
+h2 {
+margin: 1em;
+}
+h1 {
+margin: 1em;
+font-size: xx-large;
+text-align: center;
+}
+h3 {
+margin: 1em;
+}
+h4 {
+margin: 1em;
+}
+li a.active {
+background-color: #721ba5;
+color: white;
+padding: 15px 120px 10px 40px;
+}
+
+li a:hover:not(.active) {
+background-color: #555;
+color: rgb(255, 255, 255);
+padding: 15px 120px 15px 15px;
+border-radius: 5px;
+}
+
+.box {
+position: fixed;
+top: 0px;
+}
+.boh {
+position: fixed;
+bottom: 0px;
+}
+a:hover {
+color: #fff;
+background: #555;
+}
+ul:before {
+content:'';
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background: rgba(185, 63, 255, 0.192);
+border-radius: 5px;
+transition: all 2s ease;
+z-index: -1;
+}
+ul:hover:before {
+width: 100%;
+z-index: -1;
+}
+         </style>
+	    </head>
+      <body style="margin: 0px;" class="section">
+<header class="header" style="z-index: 62;">
+<nav class="navbar">
+<a href="index.html" class="nav-logo" >Спутники Юпитера</a>
+<ul class="nav-menu">
+
+<li class="nav-item">
+<a href="index2.html" class="nav-link">Европа</a>
+</li>
+<li class="nav-item">
+<a href="index3.html" class="nav-link">Ганимед</a>
+</li>
+<li class="nav-item">
+<a href="index4.html" class="nav-link" style="margin-right: 5px">Ио</a>
+</li>
+</ul>
+<div class="hamburger">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</div>
+</nav>
+</header>
+	    <h1>Ганимед<h1>
+        <img src="https://spacegid.com/wp-content/uploads/2013/06/Sputnik-kakim-ego-uvizhel-zond-Galileo-v-1997-godu.jpg"
+        <figcaption><h1>Спутник камерами зонда Галилео в 1997 году</h1></figcaption>
+        <p>
+          Спутник Юпитера Ганимед является крупнейшим спутником в нашей Солнечной системе. Он больше, чем Меркурий и Плутон, его диаметр составляет три четверти диаметра Марса. Если бы он вращался вокруг Солнца, а не по орбите вокруг Юпитера, он бы легко был классифицирован как планета.
+        </p>
+        <p>
+          <h1>Строение</h1>
+        </p>
+        <p>
+          Ганимед, состоит из трех основных слоев. Металлическое железное ядро в центре (оно генерирует магнитное поле), сферическая оболочка — мантия, окружающая ядро и ледяная кора. Ледяная оболочка снаружи очень толстая, шириной примерно 800 км. Хотя поверхность спутника это в основном лед, он может содержать некоторое количество каменных пород. Магнитное поле находится внутри магнитосферы массивного Юпитера.
+        </p>
+        <img src="http://spacegid.com/wp-content/uploads/2013/06/Ganimed-izobrazhenie-s-rasstoyaniya-okolo-70-000-km..jpg"
+        <figcaption><h1>Ганимед, изображение с расстояния около 70 000 км.</h1></figcaption>
+        <p>
+          <h1>Характеристика</h1>
+        </p>
+        <p>
+          Дата открытия                                 1610 год<br>
+          Масса                                         1.48 10*23 кг.<br>
+          Экваториальный радиус                  2631 км.<br>
+          Средняя плотность                         1,94 г/см3<br>
+          Среднее расстояние до Юпитера    1,07 млн. км.<br>
+          Период вращения                           7.154553 дней<br>
+          Средняя орбитальная скорость       10.88 км/сек<br>
+          Эксцентриситет орбиты                    0,002<br>
+          Наклонение орбиты                          0,195 градусов<br>
+          Вторая космическая скорость          2,74 км/сек<br>
+          Геометрическое альбедо                 0,42
+        </p>
+        <img src="https://spacegid.com/wp-content/uploads/2013/06/Mozaika-izobrazheniy-Ganimeda-so-sputnika-Galileo-26-iyunya-1997-goda..jpg"
+        <figcaption><h1>Мозаика изображений с космического аппарата Galileo 26 июня 1997 года.</h1></figcaption>
+        <p>
+          Астрономы, использующие космический телескоп Хаббл, обнаружили тонкую атмосферу из кислорода в 1996 году. Атмосфера слишком тонкая, чтобы поддерживать жизнь, тем более на нем весьма холодно.
+        </p>
+        <p>
+          <h1>Рельеф поверхности</h1>
+        </p>
+        <p>
+          Космические фотографии Ганимеда показывают, что луна имеет сложную геологическую историю. Ландшафт представляет собой смесь двух типов местности. Сорок процентов покрыто кратерами и темными участками, а остальные шестьдесят процентов покрыто светлым рельефом, который образует сложные узоры.
+        </p>
+        <img src="https://spacegid.com/wp-content/uploads/2013/06/Izobrazhenie-poverhnosti-sputnika-s-rasstoyaniya-primerno-4500-km.jpg"
+        <figcaption><h1>Изображение с расстояния примерно 4500 км</h1></figcaption>
+        <p>
+          Геологический термин «борозда», часто используется для описания особенности поверхности. Эти борозды, вероятно, образованы разломами или выбросами воды из-под  земли. Хребты достигают высоту семьсот метров и тянутся на тысячи километров. Темные области — старые и грубые, и считаются нетронутыми участками коры.
+        </p>
+        <img src="https://spacegid.com/wp-content/uploads/2013/06/Krater-Neyt-neobyichnaya-struktura-diametrom-okolo-160-km.jpg"
+        <figcaption><h1>Кратер Нейт, необычная структура диаметром около 160 км</h1></figcaption>
+        <p>
+          Крупные кратеры почти не возвышаются и довольно плоские. У них нет центральной впадины, характерной для кратеров на Луны. Это, вероятно, из-за медленного и постепенного движения мягкой ледяной поверхности. Вокруг кратеров существуют яркие и темные лучи выбросов.
+        </p>
+        <p>
+          <h1>Открытие спутника</h1>
+        </p>
+        <p>
+          Эта крупнейшая луна была открыта Галилео Галилеем 7 января 1610 года. Наряду с тремя другими лунами Юпитера, это был первый раз, когда спутник был обнаружен вокруг другой планеты. Открытие четырех key Галилея, в конечном итоге, привели к пониманию, что планеты в нашей Солнечной системе вращаются по орбите вокруг Солнца.
+        </p>
+        <img src="https://spacegid.com/wp-content/uploads/2013/06/Mozaika-yuzhnoy-polyarnoy-oblasti-Ganimeda-snimok-Voyadzhera-2-9-iyulya-1979-goda..jpg"
+        <figcaption><h1>Мозаика южной полярной области, снимок Вояджера-2 от 9 июля 1979 года.</h1></figcaption>
+        <p>
+          <h1>Как он получил свое название</h1>
+        </p>
+        <p>
+          Галилео первоначально называл спутники Юпитера планеты Медичи, также луны обозначали численно: I, II, III, и IV. Так было до середины 1800-х годов, после чего им присвоили имена: Ио, Европа, Ганимед и Каллисто.<br>
+          В мифологии, он был красивым мальчиком, которого похитил Зевс.
+        </p>
+          <div class="boh" style="display: block; color: #000; margin-left:0%; list-style-type: none; margin: 0; width: 2%; background-color: #221f1f; height: 45px; z-index: 22; border-radius: 0px 20px 0px 0px;"><a style="color: rgb(255, 255, 255); text-shadow: none; font-size: larger; text-align: center; margin: 0 0 0 0px; padding: 0px 0px 0px 0px; transition: 0.4s linear;" href="#"><big>▲</big></a></div>
+        </body>
+</html>
